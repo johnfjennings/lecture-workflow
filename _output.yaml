@@ -1,0 +1,34 @@
+pdf_document:
+    toc: true
+    toc_depth: 2
+    includes:
+        in_header: includes/style.tex
+rmarkdown::tufte_handout:
+    fig_width: 4
+    fig_height: 4
+beamer_presentation:
+    highlight: pygments
+    theme: metropolis
+    toc: true
+    slide_level: 2
+    includes:
+        in_header: includes/doc_prefix.tex
+
+ioslides_presentation:
+    highlight: pygments
+    self_contained: true
+    lib_dir: libs
+    logo: images/logo.png
+    fig_width: 5
+    fig_height: 4
+    fig_caption: true
+    toc: yes
+    toc_depth: 2
+    number_sections: true
+    widescreen: true
+
+revealjs::revealjs_presentation:
+    incremental: true
+    theme: sky
+    highlight: pygments
+    center: true

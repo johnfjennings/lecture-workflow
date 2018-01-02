@@ -1,0 +1,2 @@
+
+mpm --admin --install=natbib chngpage fancyhdr fontenc geometry hyperref natbib bibentry optparams paralist placeins ragged2e setspace textcase textcomp  titlesec titletoc  xcolor  xifthen
